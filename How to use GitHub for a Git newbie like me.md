@@ -162,13 +162,19 @@ yay
 
 
 
-### 6. Committing
+### 6. Adding
+
+```bash
+git add FileName
+```
+
+### 7. Committing
 
 ```bash
 git commit -m 'COMMIT MESSAGE'
 ```
 
-### 7. Pushing
+### 8. Pushing
 
 ```bash
 git push origin BRANCHNAME
@@ -176,7 +182,13 @@ git push origin BRANCHNAME
 
 
 
-### 8. Adding a new repo
+
+
+
+
+
+
+### * Adding a new repo
 
 at the new directory 
 
