@@ -42,7 +42,7 @@ then this happened
 
 
 
-![](C:\Users\user\Desktop\creatingssn.PNG)
+![](C:\KOH\MD\image\creatingssn.PNG)
 
 
 
@@ -64,7 +64,7 @@ so the default file that was set via enter
 
 Seems like id-rsa needs to be replaced if different file was created
 
-![](C:\Users\user\AppData\Roaming\Typora\typora-user-images\1562633573476.png)
+![](C:\KOH\MD\image\couldnot.png)
 
 Not good.
 
@@ -80,7 +80,7 @@ eval $(ssh-agent -s)
 
 then this happened:
 
-![tempsnip](C:\Users\user\Desktop\tempsnip.png)
+![tempsnip](C:\KOH\MD\image\tempsnip.png)
 
 I think it worked.
 
