@@ -42,7 +42,7 @@ then this happened
 
 
 
-![](.\image\creatingssn.PNG)
+![](https://github.com/viridis45/intro/blob/master/image/creatingssn.PNG)
 
 
 
