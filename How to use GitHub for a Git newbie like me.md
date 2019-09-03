@@ -22,9 +22,9 @@ git config user.name
 
 This returned my user name.
 
+  
 
-
-
+  
 
 ### 2. Generating SSH Key
 
@@ -48,7 +48,9 @@ then this happened
 
 
 
+  
 
+  
 
 ### 3. now add it onto ssh-agent
 
@@ -64,7 +66,7 @@ so the default file that was set via enter
 
 Seems like id-rsa needs to be replaced if different file was created
 
-![](.\image\couldnot.png)
+![](https://github.com/viridis45/intro/blob/master/image/couldnot.PNG)
 
 Not good.
 
@@ -80,13 +82,13 @@ eval $(ssh-agent -s)
 
 then this happened:
 
-![tempsnip](.\image\tempsnip.png)
+![tempsnip](https://github.com/viridis45/intro/blob/master/image/tempsnip.png)
 
 I think it worked.
 
+  
 
-
-
+  
 
 ### 4. Add this to GitHub account
 
@@ -102,9 +104,9 @@ I think it worked
 
 
 
+  
 
-
-
+  
 
 ### 5. Cloning repository
 
@@ -130,7 +132,7 @@ navigated into the created folder and check if it is correct:
 git remote -v
 ```
 
-
+  
 
 tried $ git push but permission was denied because of the previous user of this desktop. need to change that.
 
@@ -140,7 +142,7 @@ git remote set-url URLToDesiredRepo
 
 it was not successful.
 
-
+  
 
 control Panel > User Accounts > Manage your Credentials > Windows Credentials > Generic Credentials
 
@@ -160,7 +162,9 @@ logged in. Bash says Everything up-to-date
 
 yay
 
+  
 
+  
 
 ### 6. Adding
 
@@ -180,9 +184,9 @@ git commit -m 'COMMIT MESSAGE'
 git push origin BRANCHNAME
 ```
 
+  
 
-
-
+  
 
 
 
@@ -203,7 +207,7 @@ says 'create mode '
 
 then created a new repo at github page
 
-
+  
 
 
 
@@ -217,7 +221,7 @@ esc : exit insert mode
 
 :q! and enter: exit without save
 
-
+  
 
 
 
@@ -241,7 +245,7 @@ git checkout -b BRANCHNAME EXISTING_BRANCH
 
 good thing i've used sourcetree to kinda know the gist of what they are saying.
 
-
+  
 
 ### * Staging
 
